@@ -1,29 +1,43 @@
 {
-    "name": "pantone"
-  , "description": "Find the nearest PMS color using hex or rgb colors from CLI or as a dependency."
-  , "version": "0.0.5"
-  , "author": "Nick Baugh <niftylettuce@gmail.com>"
-  , "contributors": [
-      { "name": "Nick Baugh", "email": "niftylettuce@gmail.com" },
-      { "name": "Radu Micu", "email": "radu.micu@gmail.com" }
-    ]
-  , "keywords": [ "pantone", "pms", "color", "chart", "printing" ]
-  , "homepage": "https://github.com/teelaunch/pms-pantone-color-chart"
-  , "repository": {
-        "type": "git"
-      , "url": "https://github.com/teelaunch/pms-pantone-color-chart.git"
+  "name": "pantone",
+  "description": "Find the nearest PMS color using hex or rgb colors from CLI or as a dependency.",
+  "version": "0.0.6",
+  "author": "Nick Baugh <niftylettuce@gmail.com>",
+  "contributors": [
+    {
+      "name": "Nick Baugh",
+      "email": "niftylettuce@gmail.com"
+    },
+    {
+      "name": "Radu Micu",
+      "email": "radu.micu@gmail.com"
     }
-  , "engines": {
-        "node": "0.8.x"
-      , "npm": "1.1.x"
-    }
-  , "main": "pantone"
-  , "bin": { "pantone": "./bin/pantone" }
-  , "dependencies": {
-        "request": "2.12.0"
-      , "cheerio": "0.10.5"
-      , "underscore": "1.4.3"
-      , "commander": "1.1.1"
-      , "cli-table": "0.2.0"
-    }
+  ],
+  "keywords": [
+    "pantone",
+    "pms",
+    "color",
+    "chart",
+    "printing"
+  ],
+  "homepage": "https://github.com/teelaunch/pms-pantone-color-chart",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teelaunch/pms-pantone-color-chart.git"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "main": "pantone",
+  "bin": {
+    "pantone": "./bin/pantone"
+  },
+  "dependencies": {
+    "request": "2.12.0",
+    "cheerio": "0.22.0",
+    "underscore": "1.4.3",
+    "commander": "1.1.1",
+    "cli-table": "0.2.0"
+  }
 }
